@@ -45,7 +45,7 @@
  </p>
   
   
-### step 3: Stop Capture and Filter Traffic
+### Step 3: Stop Capture and Filter Traffic
 
 - Return to Wireshark and click the Stop button (the red square).
 
@@ -61,7 +61,7 @@
   <br>
   <br>
 
-### step 4: Inspect the Packet to Find Credentials 
+### Step 4: Inspect the Packet to Find Credentials 
 
 - In the filtered packet list, you should see a packet with information like "POST /userinfo.php". Select this packet.
 

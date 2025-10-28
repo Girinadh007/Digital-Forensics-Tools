@@ -5,7 +5,7 @@ To use TestDisk step by step to recover a missing partition and repair a corrupt
 
 
 
-## 🛠️ Installation
+##  Installation
 Linux (Debian/Ubuntu): sudo apt-get install testdisk
 
 macOS (Homebrew): brew install testdisk

@@ -82,16 +82,8 @@ Steg-Expose is an open-source steganalysis tool designed to detect hidden data w
     java -jar StegExpose.jar <folder_path>
     ```
 
-### 7. Advanced Options (Optional)
 
-* To view additional parameters, such as options for adjusting detection sensitivity or output verbosity, use the `--help` flag:
-
-    **Command:**
-    ```bash
-    java -jar StegExpose.jar --help
-    ```
-
-### 8. Review the Results
+### 7. Review the Results
 
 * Review the scores generated for each image and use the threshold values to determine which images require further forensic investigation to extract the suspected hidden data.
 

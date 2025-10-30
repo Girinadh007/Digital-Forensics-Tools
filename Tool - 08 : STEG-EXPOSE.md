@@ -14,6 +14,10 @@ Steg-Expose is an open-source steganalysis tool designed to detect hidden data w
 - **Command-line interface (Terminal or Command Prompt)**  
 
 
+<br>
+<br>
+<br>
+<br>
 
 ## Procedure :
 
@@ -91,9 +95,10 @@ Steg-Expose is an open-source steganalysis tool designed to detect hidden data w
 
 * Review the scores generated for each image and use the threshold values to determine which images require further forensic investigation to extract the suspected hidden data.
 
-# Result
-Steg-Expose successfully analyzed the images and detected potential hidden data in files with a high steganalysis score.
-
 # Conclusion
 
 Steg-Expose effectively identifies images that may contain steganographic content. It serves as a powerful forensic tool to assist investigators in uncovering hidden information in digital evidence.
+
+
+# Result
+Steg-Expose successfully analyzed the images and detected potential hidden data in files with a high steganalysis score.

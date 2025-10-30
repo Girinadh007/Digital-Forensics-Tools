@@ -1,4 +1,3 @@
-
 # Ex.No.09 Using Process Explorer to Identify Suspicious Processes
 
 ## **Aim**
@@ -8,19 +7,15 @@ To use Microsoft Sysinternals **Process Explorer** to monitor system activities 
 Process Explorer is a part of the **Microsoft Sysinternals Suite**. It is a powerful tool used to view detailed information about system processes.  
 It helps investigators and administrators analyze active processes, detect suspicious behavior, monitor CPU and memory usage, and verify process authenticity using digital signatures.
 
-
 ## **Tools**
 - Windows operating system  
 - Internet connection  
 - **Process Explorer** (from Microsoft Sysinternals)  
-- Optional: Antivirus software (e.g., Windows Defender, Malwarebytes)
-
 
 ## **Step-by-Step Procedure**
 
 ### **Step 1: Download and Setup Process Explorer**
 1. Go to the official Microsoft Sysinternals website:  
-   🔗 [https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)
 2. Click **Download Process Explorer**.
 3. Extract the downloaded ZIP file to a folder.
 4. Right-click `procexp64.exe` (for 64-bit) or `procexp.exe` (for 32-bit) → select **Run as Administrator**.
@@ -60,11 +55,11 @@ It helps investigators and administrators analyze active processes, detect suspi
 ### **Step 5: Verify Process Legitimacy**
 1. Search the process name on Google.  
    Example: `svchost.exe` vs `svhost.exe` (one letter missing — suspicious).
-2. Visit 🔗 [https://www.virustotal.com](https://www.virustotal.com)
+2. Visit virustotal official website
    - Upload the process file or search its name to verify if it’s reported as malware.
 3. Cross-check with **ProcessLibrary.com** or official vendor websites for authenticity.
+   
 ![images/exp9-disk-step2.png](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/326db74a3770e2ba22207f5a48b737f17307f683/images/9.6.jpeg)
----
 
 ### **Step 6: Take Appropriate Action**
 1. **If the process is confirmed malicious:**
@@ -74,9 +69,8 @@ It helps investigators and administrators analyze active processes, detect suspi
    - Right-click → **Suspend Process** to stop it temporarily for investigation.
 3. **After removal:**
    - Run a **Full System Scan** using Windows Defender or Malwarebytes to ensure no remnants remain.
+     
 <img width="1919" height="1079" alt="Screenshot 2025-10-28 224928" src="https://github.com/user-attachments/assets/cf5137d4-7555-4c96-9651-b74d10d5534a" />
-
----
 
 ### **Step 7: Example Observation**
 You find `example_template.pdf` consuming 70% CPU.  
@@ -86,11 +80,11 @@ You find `example_template.pdf` consuming 70% CPU.
 - **Network Activity:** Shows connections to unknown IPs in the TCP/IP tab  
 - **Online Check:** VirusTotal confirms it as a **known trojan**  
 - **Action Taken:** Suspended → Killed → Deleted file → Performed full antivirus scan  
+
 ![images/exp9-disk-step2.png](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/326db74a3770e2ba22207f5a48b737f17307f683/images/9.9.jpeg)
----
+
 
 
 ## **Result**
 Using Process Explorer, suspicious processes were successfully identified by examining their **CPU usage**, **path**, **digital signature**, and **network activity**. Confirmed malicious processes were terminated and removed to maintain system integrity.
 
----

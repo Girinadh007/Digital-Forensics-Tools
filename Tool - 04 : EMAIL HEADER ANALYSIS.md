@@ -76,5 +76,5 @@ This confirms the email is not spoofed or altered.
 <br>
 <br>
 
-### Conclusion:
+### Result:
 The email header analysis confirms that the tested email is authentic, as it complies with DMARC policy and passes SPF and DKIM verification. This demonstrates that proper email authentication mechanisms effectively prevent spoofing and ensure secure email delivery.

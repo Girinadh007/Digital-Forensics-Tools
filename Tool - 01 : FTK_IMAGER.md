@@ -188,16 +188,8 @@ A window will appear asking you to choose the source type:
 - After completion, FTK Imager verifies the hashes automatically.  
 - A final window shows **MD5** and **SHA1** hashes for both the source drive and image.  
 - Matching hashes confirm the forensic image’s integrity.
-
----
-## Notes
-
-- Always use a **write-blocker** to prevent modifications to the evidence.  
-- **Hash verification** is critical to maintain a chain of custody and admissibility in court.  
-- **Image Fragmentation** is useful for large drives or storage limitations.
----
-
-## References
-
-- [FTK Imager Official Website](https://accessdata.com/product-download/ftk-imager-version-4-5)  
-- FTK Imager Documentation
+  <br>
+  <br>
+  <br>
+### 7. Result
+Thus, the FTK Imager is completed succesfully.

@@ -155,9 +155,5 @@ Windows: Download the executable from the official CGSecurity website.
 
 - If you wrote a new partition table to the drive, it is recommended to restart your computer to allow the operating system to recognize the changes.
 
-</p>
-<br>
-<br>
-
-
-- If you wrote a new partition table to the drive, it is recommended to restart your computer to allow the operating system to recognize the changes.
+### Result:
+Thus, by using TestDisk step by step to recover a missing partition and repair a corrupted one was succesufully completed.

@@ -97,9 +97,6 @@ A window will appear asking you to choose the source type:
 
 <img width="1089" height="735" alt="image" src="https://github.com/user-attachments/assets/c5d507fb-7bfc-42d3-9c8f-c766fdd68589" />
 
-</p>
-<br>
-<br>
 
 ### 3. Select the Source Drive
 - From the dropdown, choose the physical drive to image (connected via **write-blocker**).  
@@ -110,8 +107,6 @@ A window will appear asking you to choose the source type:
 <img width="1919" height="1079" alt="Screenshot 2025-09-01 233107" src="https://github.com/user-attachments/assets/75bc14c6-a287-4084-b810-2d655418f2e6" />
 
 </p>
-<br>
-<br>
 
 ### 4. Configure the Image Destination
 - Click **Add...** in the "Create Image" window to define the image **format** and **destination**.
@@ -119,8 +114,6 @@ A window will appear asking you to choose the source type:
 <br>
 <p align="center">
 <img width="1084" height="735" alt="image" src="https://github.com/user-attachments/assets/7871caad-5c0e-45b4-b186-1b3383ffdb73" />
-
-<br>
 
 #### Options:
 
@@ -133,9 +126,6 @@ A window will appear asking you to choose the source type:
 <img width="1091" height="735" alt="image" src="https://github.com/user-attachments/assets/11927a3a-6d4b-4017-be40-1cbbfc38800a" />
 
 </p>
-<br>
-<br>
-
 - **Fill in Evidence Item Information:**  
   - Enter case details, examiner name, and description.  
   - This information is stored in the image metadata (important for documentation).
@@ -143,9 +133,6 @@ A window will appear asking you to choose the source type:
 <img width="1919" height="1079" alt="Screenshot 2025-09-01 233216" src="https://github.com/user-attachments/assets/cd514dd7-34a9-4883-a626-2974db964815" />
 
 </p>
-<br>
-<br>
-
 - **Choose Destination Folder:**  
   - Must be a different drive from the source.  
   - Name the image file (e.g., `Case001_SuspectHDD`).  
@@ -159,24 +146,16 @@ A window will appear asking you to choose the source type:
 <p align="center">
 <img width="1919" height="1079" alt="7" src="https://github.com/user-attachments/assets/1e70219b-98ae-48d8-a922-05835baad8e9" />
 </p>
-<br>
-<br>
-
 
 ### 5. Start the Imaging Process
 - Click **Finish** to return to the "Create Image" screen.  
 - **Check "Verify images after they are created"** to calculate hash values and ensure integrity.  
 - Click **Start**.
-  <br>
-  <br>
   <p align="center">
 <img width="1919" height="1079" alt="8" src="https://github.com/user-attachments/assets/3228c063-a78c-45cd-8789-6cc1e7608b6f" />
 
 <img width="1919" height="1079" alt="9" src="https://github.com/user-attachments/assets/9538bd4f-c6ea-48b3-b46f-21d2eacd7979" />
-
 </p>
-<br>
-<br>
 
 ### 6. Completion and Hash Verification
 - The imaging process may take time depending on the drive size.  
@@ -184,6 +163,7 @@ A window will appear asking you to choose the source type:
 - A final window shows **MD5** and **SHA1** hashes for both the source drive and image.  
 - Matching hashes confirm the forensic image’s integrity.
   
-  <br>
+ 
 ### 7. Result
+
 Thus, the FTK Imager is completed succesfully.

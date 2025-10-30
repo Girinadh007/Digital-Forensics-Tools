@@ -11,6 +11,8 @@ Autopsy is an open-source digital forensics tool used to analyze hard drives, me
 ## 1: Open Autopsy: Launch the Autopsy tool from your system.
 
 <img width="1919" height="1079" alt="Screenshot 2025-10-28 214939" src="https://github.com/user-attachments/assets/a9d8a0ef-2191-409f-a949-049e0e31a60a" />
+
+
 ## 2. Create a New Case  
    - Click on Create New Case.  
    - Enter the Case Name: Digitalevidence 
@@ -44,11 +46,18 @@ Autopsy is an open-source digital forensics tool used to analyze hard drives, me
    - Review the matched results to identify relevant evidence.
 <img width="1919" height="1079" alt="Screenshot 2025-10-28 220124" src="https://github.com/user-attachments/assets/1a1f33eb-89c3-49a1-bbd2-5b81ef2e7b34" />
 
+
+<br>
+<br>
+<br>
 ## 7. Generate Report  
    - After analysis, go to Generate Report.  
    - Select the evidence items to include.  
    - Click **Finish** to export the report.
    <img width="1919" height="1079" alt="Screenshot 2025-10-28 220201" src="https://github.com/user-attachments/assets/866945b5-5c1c-45bc-bb6b-e3e2552b85be" />
+
+<br>
+<br>
 
 ## 8. Review and Conclude 
    - Open the generated report and examine the findings.  

@@ -36,7 +36,6 @@ The tool generates organized CSV reports that can be analyzed for digital eviden
    - Tap Build Number seven times to enable developer mode.  
    - Enable USB Debugging under Developer Options.
 
----
 
 ### Step 2: Connect the Android Device
 1. **Connect the Device:**
@@ -50,9 +49,8 @@ The tool generates organized CSV reports that can be analyzed for digital eviden
      ```
    - Ensure the device appears under “List of devices attached”.
 
----
 
-### 🔹 Step 3: Install AFLogical OSE
+### Step 3: Install AFLogical OSE
 1. **Transfer APK:**
    - Push the AFLogical OSE APK file to the Android device:
      ```bash
@@ -63,9 +61,8 @@ The tool generates organized CSV reports that can be analyzed for digital eviden
    - On the device, open **AFLogical OSE** from the app drawer.  
    - Grant necessary permissions for accessing contacts, messages, and logs.
 
----
 
-### 🔹 Step 4: Perform Data Extraction
+### Step 4: Perform Data Extraction
 1. **Select Data Types:**
    - Choose the data categories you want to extract:
      - Contacts  
@@ -84,9 +81,8 @@ The tool generates organized CSV reports that can be analyzed for digital eviden
      adb pull /sdcard/forensics/ C:\AFLogical_Output\
      ```
 
----
 
-### 🔹 Step 5: Analyze Extracted Data
+### Step 5: Analyze Extracted Data
 1. **Locate Extracted Files:**
    - Navigate to the output folder.
    - You’ll find csv files such as:
@@ -99,9 +95,11 @@ The tool generates organized CSV reports that can be analyzed for digital eviden
 3. **Document Findings:**
    - Note any relevant evidence such as suspicious contacts, frequent calls, or message keywords.
 
----
+<br>
+<br>
+<br>
 
-### 🔹 Step 6: Preserve and Report Evidence
+### Step 6: Preserve and Report Evidence
 1. **Generate Report:**
    - Combine the extracted CSV files into a structured forensic report.  
    - Include hash values, timestamps, and extraction logs.
@@ -110,12 +108,11 @@ The tool generates organized CSV reports that can be analyzed for digital eviden
    - Store both the raw extracted files and reports in a secure, write-protected location.  
    - Maintain a chain of custody record for authenticity.
 
----
+##  Conclusion
+AFLogical OSE is an efficient open-source tool for logical data acquisition from Android devices. It enables investigators to extract crucial user data contacts, messages, and logs) non-invasively, supporting digital investigations while maintaining evidence integrity.
 
 ##  Result
 Successfully extracted data from the Android device using AFLogical OSE.Contacts, call logs, and SMS data were retrieved and exported into csv format for analysis. All extracted evidence was preserved securely for further forensic examination.
 
----
 
-##  Conclusion
-AFLogical OSE is an efficient open-source tool for logical data acquisition from Android devices. It enables investigators to extract crucial user data contacts, messages, and logs) non-invasively, supporting digital investigations while maintaining evidence integrity.
+

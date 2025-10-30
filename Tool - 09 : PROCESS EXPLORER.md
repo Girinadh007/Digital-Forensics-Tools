@@ -12,6 +12,10 @@ It helps investigators and administrators analyze active processes, detect suspi
 - Internet connection  
 - **Process Explorer** (from Microsoft Sysinternals)  
 
+<br>
+<br>
+<br>
+
 ## **Step-by-Step Procedure**
 
 ### **Step 1: Download and Setup Process Explorer**
@@ -21,6 +25,8 @@ It helps investigators and administrators analyze active processes, detect suspi
 4. Right-click `procexp64.exe` (for 64-bit) or `procexp.exe` (for 32-bit) → select **Run as Administrator**.
 
 
+<br>
+<br>
 
 ### **Step 2: Understand the Interface**
 1. The main window displays all running processes in a **hierarchical tree view**.
@@ -41,7 +47,7 @@ It helps investigators and administrators analyze active processes, detect suspi
    - No signature or invalid = possibly malicious
 <img width="1915" height="1079" alt="Screenshot 2025-10-28 224554" src="https://github.com/user-attachments/assets/0d7e70e4-6e79-428d-94bb-64acdf89107f" />
 
----
+<br>
 
 ### **Step 4: Analyze Process Behavior**
 1. Observe **CPU**, **Memory**, and **I/O usage** columns.
@@ -61,6 +67,9 @@ It helps investigators and administrators analyze active processes, detect suspi
    
 ![images/exp9-disk-step2.png](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/326db74a3770e2ba22207f5a48b737f17307f683/images/9.6.jpeg)
 
+<br>
+<br>
+
 ### **Step 6: Take Appropriate Action**
 1. **If the process is confirmed malicious:**
    - Right-click the process → **Kill Process** to stop it.
@@ -69,8 +78,18 @@ It helps investigators and administrators analyze active processes, detect suspi
    - Right-click → **Suspend Process** to stop it temporarily for investigation.
 3. **After removal:**
    - Run a **Full System Scan** using Windows Defender or Malwarebytes to ensure no remnants remain.
+
+     <br>
+     <br>
      
 <img width="1919" height="1079" alt="Screenshot 2025-10-28 224928" src="https://github.com/user-attachments/assets/cf5137d4-7555-4c96-9651-b74d10d5534a" />
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ### **Step 7: Example Observation**
 You find `example_template.pdf` consuming 70% CPU.  

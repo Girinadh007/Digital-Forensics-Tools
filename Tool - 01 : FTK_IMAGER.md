@@ -11,6 +11,7 @@
 - Right-click the FTK Imager icon and select **Run as administrator**.
 <br>
 <br>
+
 ![WhatsApp Image 2025-09-01 at 23 41 06_ca7d820f](https://github.com/user-attachments/assets/627ff9e3-150e-4663-907f-5be7e65371a8)
  
 <br>

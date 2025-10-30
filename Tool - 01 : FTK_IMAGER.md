@@ -6,16 +6,12 @@
 
 ### Steps to Capture RAM Using FTK Imager
 <br>
-
 ### 1. Run as Administrator
 - Open **FTK Imager** with administrative privileges.  
 - Right-click the FTK Imager icon and select **Run as administrator**.
 <br>
 <br>
-
 ![WhatsApp Image 2025-09-01 at 23 41 06_ca7d820f](https://github.com/user-attachments/assets/627ff9e3-150e-4663-907f-5be7e65371a8)
-
-
  
 <br>
 <br>
@@ -53,8 +49,6 @@ A dialog box will appear where you configure where and how the memory will be sa
 <br>
 
 <img width="1919" height="1079" alt="2" src="https://github.com/user-attachments/assets/422c5d3a-d6b6-4e13-9598-549e68305008" />
-
- 
 <br>
 <br>
 
@@ -188,8 +182,7 @@ A window will appear asking you to choose the source type:
 - After completion, FTK Imager verifies the hashes automatically.  
 - A final window shows **MD5** and **SHA1** hashes for both the source drive and image.  
 - Matching hashes confirm the forensic image’s integrity.
-  <br>
-  <br>
+  
   <br>
 ### 7. Result
 Thus, the FTK Imager is completed succesfully.

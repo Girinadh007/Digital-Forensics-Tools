@@ -16,8 +16,6 @@ Steg-Expose is an open-source steganalysis tool designed to detect hidden data w
 
 <br>
 <br>
-<br>
-<br>
 
 ## Procedure :
 
